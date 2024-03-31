@@ -4,7 +4,7 @@ import { arrowdown, arrowup } from "../helper/icons";
 const Question = ({ question }) => {
   const [upDown, setUpDown] = useState(false);
 
-  const handleUpDown = (id) => {
+  const handleUpDown = () => {
     setUpDown(!upDown);
   };
 
